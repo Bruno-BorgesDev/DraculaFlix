@@ -1,0 +1,24 @@
+.filme-principal {
+    background: none;
+}    
+
+.filme-principal .descricao {
+    display: none;    
+}
+
+.container {
+    margin-left: 0;
+    margin-bottom: 120px;
+}
+
+.filme-principal .container {
+    width: 100%;
+}
+.container iframe { 
+    margin: 0 5%;
+    
+    
+    border: 2px solid #000;
+    width: 90%;
+    height: 500px;
+}

@@ -1,0 +1,120 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+    --pruple: #282a36;
+    --pink: #ff79c6;
+    --green: #50fa7b;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body {
+    background: var(--pruple);
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--green);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;   
+}
+    
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: var(--green);
+}
+
+/*Filme Principal*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/sons-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5px;
+}    
+
+.filme-principal .descricao {
+    margin-top: 2%;
+    margin-bottom: 90px;    
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;       
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: var(--green);
+    color: #000;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.carrosel-filmes .subtitulo {    
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;       
+}
